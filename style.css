@@ -234,6 +234,15 @@ textarea {
   margin: 10px 0;
 }
 
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Full screen height minus the nav */
+  background-color: #f4f4f4;
+}
+
 /* Footer */
 footer {
   background-color: #333;
