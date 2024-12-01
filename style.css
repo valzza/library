@@ -326,6 +326,9 @@ textarea {
   cursor: pointer;
   margin-top: 10px;
 }
+.login-btn:hover {
+  background-color: #8e4e1d;
+}
 /* Footer */
 footer {
   background-color: #333;
