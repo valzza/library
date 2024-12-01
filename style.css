@@ -149,3 +149,8 @@ textarea {
   background-color: #f9f9f9;
   border-radius: 8px;
 }
+.logo img {
+  height: 70px;
+  width: auto;
+  display: block; 
+}
