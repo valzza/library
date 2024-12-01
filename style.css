@@ -304,6 +304,11 @@ textarea {
   font-size: 16px;
   background-color: #eed7c7;
 }
+.login-container input:focus {
+  outline: none;
+  border: 1px solid #ddd; 
+  box-shadow: none;
+}
 /* Footer */
 footer {
   background-color: #333;
