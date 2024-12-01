@@ -177,6 +177,12 @@ textarea {
     color: #8e4e1d;
     font-weight: lighter;
 }
+.main-headers a{
+    color: #593213;
+  }
+  .main-headers a:hover{
+    color: black;
+}
 
   /* Footer */
   footer {
