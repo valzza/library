@@ -206,6 +206,13 @@ textarea {
     border-radius: 8px;
     text-align: center;
   }
+  .aboutus-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(40vh - 60px);
+    background-color: #f4f4f4;
+  }
 
   /* Footer */
   footer {
