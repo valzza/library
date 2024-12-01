@@ -184,6 +184,13 @@ textarea {
     color: black;
 }
 
+/* About us */
+.aboutus{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
   /* Footer */
   footer {
     background-color: #333;
