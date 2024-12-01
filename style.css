@@ -251,7 +251,11 @@ textarea {
   border-radius: 8px; 
   text-align: center;
 }
-
+.contact-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
 /* Footer */
 footer {
   background-color: #333;
