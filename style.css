@@ -309,6 +309,12 @@ textarea {
   border: 1px solid #ddd; 
   box-shadow: none;
 }
+/* Titullat e login */
+.login-container label{
+  font-size: 18px;
+  color: #593213;
+}
+
 /* Footer */
 footer {
   background-color: #333;
