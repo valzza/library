@@ -283,10 +283,10 @@ textarea {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 500px;
   text-align: center;
-  position: absolute; /* Vendosim pozicion absolut */
-  top: 50%; /* Qendra vertikale */
-  left: 50%; /* Qendra horizontale */
-  transform: translate(-50%, -50%); /* Lëvizje për të qendruar në qendër */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
 }
 /* Titulli */
 .login-container h1 {
