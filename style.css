@@ -260,6 +260,10 @@ textarea {
     list-style: none;
     padding:0;
 }
+.contact-info li {
+    font-size: 18px;
+    margin: 10px 0;
+}
 /* Footer */
 footer {
   background-color: #333;
