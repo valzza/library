@@ -1,91 +1,90 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
 
-  header {
-    background-color: #8e4e1d;
-    color: #fff;
-    padding: 10px 20px;
-  }
+header {
+  background-color: #8e4e1d;
+  color: #fff;
+  padding: 10px 20px;
+}
 
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav-links a:hover {
+  text-decoration: underline;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  }
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .nav-links {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .nav-links li a, .auth-links a {
-    color: white;
-    text-decoration: none;
-  }
-  .logo img {
-    height: 70px;
-    width: auto;
-    display: block; 
-  }
+.nav-links li a, .auth-links a {
+  color: white;
+  text-decoration: none;
+}
+.logo img {
+  height: 70px;
+  width: auto;
+  display: block; 
+}
 
 
-  .auth-links {
-    display: flex;
-    gap: 10px;
-  }
+.auth-links {
+  display: flex;
+  gap: 10px;
+}
 
-  main {
-    flex: 1; 
-  }
-  /* Hero Section */
-  .hero {
-    background-image: url('uploads/images/poster.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+main {
+  flex: 1; 
+}
+/* Hero Section */
+.hero {
+  background-image: url('uploads/images/poster.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  .hero-content h1 {
-    font-size: 3em;
-  }
+.hero-content h1 {
+  font-size: 3em;
+}
 
-  .hero-content .btn-explore {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #ff6b6b;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
+.hero-content .btn-explore {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
   
-  /* Book Collection */
-  /* Container for the book details page */
+/* Book Collection */
+/* Container for the book details page */
 .details-container {
-    display: flex; 
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Book Cover Styling */
@@ -172,16 +171,16 @@ textarea {
 
 /* Main-Headers */
 .main-headers{
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #8e4e1d;
-    font-weight: lighter;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #8e4e1d;
+  font-weight: lighter;
 }
 .main-headers a{
-    color: #593213;
+  color: #593213;
   }
-  .main-headers a:hover{
-    color: black;
+.main-headers a:hover{
+  color: black;
 }
 
 /* About us */
