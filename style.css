@@ -264,6 +264,10 @@ textarea {
     font-size: 18px;
     margin: 10px 0;
 }
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
 /* Footer */
 footer {
   background-color: #333;
