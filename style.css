@@ -329,6 +329,17 @@ textarea {
 .login-btn:hover {
   background-color: #8e4e1d;
 }
+/* Sign up butoni */
+.signup-btn{
+  font-size: 18px;
+  color: #593213;
+}
+.signup-btn a{
+  color: #593213;
+}
+.signup-btn a:hover{
+  color: #000000;
+}
 /* Footer */
 footer {
   background-color: #333;
