@@ -190,6 +190,14 @@ textarea {
   width: 100%;
   text-align: center;
 }
+/*About Us */
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #f4f4f4;
+  }
 
   /* Footer */
   footer {
