@@ -271,6 +271,24 @@ textarea {
 .contact-info a:hover {
     text-decoration: underline;
 }
+
+/* Login Form */
+.login-container {
+  background: #eeac7a;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+  position: absolute; /* Vendosim pozicion absolut */
+  top: 50%; /* Qendra vertikale */
+  left: 50%; /* Qendra horizontale */
+  transform: translate(-50%, -50%); /* Lëvizje për të qendruar në qendër */
+}
+
 /* Footer */
 footer {
   background-color: #333;
