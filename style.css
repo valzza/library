@@ -227,6 +227,10 @@ textarea {
     margin-bottom: 20px;
     color: #333;
   }
+  .aboutus-info {
+    list-style: none;
+    padding: 0;
+  }
 
   /* Footer */
   footer {
