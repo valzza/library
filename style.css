@@ -294,6 +294,16 @@ textarea {
   font-size: 30px;
   color: #593213;
 }
+/* Fushat e input-it */
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #eed7c7;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #eed7c7;
+}
 /* Footer */
 footer {
   background-color: #333;
