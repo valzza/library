@@ -340,6 +340,17 @@ textarea {
 .signup-btn a:hover{
   color: #000000;
 }
+/* Back butoni */
+.back-link {
+  display: block;
+  margin: 20px;
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
 /* Footer */
 footer {
   background-color: #333;
