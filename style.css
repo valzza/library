@@ -288,7 +288,12 @@ textarea {
   left: 50%; /* Qendra horizontale */
   transform: translate(-50%, -50%); /* Lëvizje për të qendruar në qendër */
 }
-
+/* Titulli */
+.login-container h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #593213;
+}
 /* Footer */
 footer {
   background-color: #333;
