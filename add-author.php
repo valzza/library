@@ -10,7 +10,7 @@ if (isset($_SESSION['user_id']) &&
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Edit Author</title>
+	<title>Add Author</title>
 	<!-- For icons -->
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <!-- bootstrap 5 CDN-->
