@@ -79,6 +79,7 @@ if (isset($_SESSION['user_id']) &&
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
       </div>
+  <?php } ?>
 	<div class="container">
        <form action="search.php"
              method="get" 
