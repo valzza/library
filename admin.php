@@ -37,7 +37,7 @@ if (isset($_SESSION['user_id']) &&
     <!-- bootstrap 5 Js bundle CDN-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style.css">
-	
+
 	<!-- Swiper .js CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 </head>
@@ -68,6 +68,17 @@ if (isset($_SESSION['user_id']) &&
       </div>
     </nav>
   </header>
+  <?php if ($_SESSION['user_role'] == 2) { ?>
+			<!-- Slider -->
+			<div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="uploads/slider/slider1.png" style="width: 100%; height: 30%; display: block;" alt="Slider 1"></div>
+        <div class="swiper-slide"><img src="uploads/slider/slider2.png" style="width: 100%; height: auto; display: block;" alt="Slider 2"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      </div>
 	<div class="container">
        <form action="search.php"
              method="get" 
