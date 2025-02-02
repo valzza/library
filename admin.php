@@ -79,6 +79,23 @@ if (isset($_SESSION['user_id']) &&
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
       </div>
+	  <!-- Swiper .js Javascript -->
+	 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"></script>
+     <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
   <?php } ?>
 	<div class="container">
        <form action="search.php"
