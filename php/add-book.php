@@ -8,9 +8,9 @@ if (isset($_SESSION['user_id']) &&
 
 	include "../db_conn.php";
 
-
 	if (isset($_POST['category_name'])) {
 		$name = $_POST['category_name'];
+
 		if (empty($name)) {
 			$em = "The category name is required";
 			header("Location: ../add-category.php?error=$em");
