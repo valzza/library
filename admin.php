@@ -40,6 +40,46 @@ if (isset($_SESSION['user_id']) &&
 
 	<!-- Swiper .js CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+	<style>
+    #slider {
+      width: 90%;
+      height: 90%;
+	  margin: 20px auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #slider img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+
+    .buttons {
+		display: flex;         
+  		justify-content: center;
+  		align-items: center;    
+  		margin-top: 10px; 
+		justify-content: space-between;
+		width: 200px;  
+		margin-left: auto;
+  		margin-right: auto; 
+    }
+
+    .buttons button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+	  background-color: #593213;
+	  color: #eed7c7;
+    }
+
+    .buttons button:hover {
+      background-color: #8e4e1d;
+    }
+  </style>
 </head>
 <body>
 <header>
@@ -69,33 +109,40 @@ if (isset($_SESSION['user_id']) &&
     </nav>
   </header>
   <?php if ($_SESSION['user_role'] == 2) { ?>
-			<!-- Slider -->
-			<div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="uploads/slider/slider1.png" style="width: 100%; height: 30%; display: block;" alt="Slider 1"></div>
-        <div class="swiper-slide"><img src="uploads/slider/slider2.png" style="width: 100%; height: auto; display: block;" alt="Slider 2"></div>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-      </div>
-	  <!-- Swiper .js Javascript -->
-	 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"></script>
-     <script>
-        var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 1,
-          spaceBetween: 10,
-          loop: true,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-    </script>
+
+	<div id="slider">
+    <img id="slider-image" src="uploads/slider/slider4.png" alt="Slider Image">
+  </div>
+
+  <div class="buttons">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+  </div>
+
+  <script>
+    const images = [
+      "uploads/slider/slider1.png",
+	  "uploads/slider/slider2.png",
+    ];
+
+    let currentIndex = 0;
+
+    const sliderImage = document.getElementById('slider-image');
+    const nextButton = document.getElementById('next');
+    const prevButton = document.getElementById('prev');
+
+    // Change to the next image
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % images.length;
+      sliderImage.src = images[currentIndex];
+    });
+
+    // Change to the previous image
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      sliderImage.src = images[currentIndex];
+    });
+  </script>
   <?php } ?>
 	<div class="container">
        <form action="search.php"
